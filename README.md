@@ -9,11 +9,7 @@ The objective was to transform raw data into meaningful business insights throug
 ## Project Showcase
 
 To see the complete dashboard screenshots, visualizations, and project highlights, check out my LinkedIn post:
-LinkedIn : https://www.linkedin.com/posts/divyansh-rathore-2a7617332_dataanalytics-dataanalyst-powerbi-ugcPost-7470157126091526144-9BK0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFO9qd8BnLkUuBmGMRPfunIdhjYtqt_3UPM)
-
-
-
----
+LinkedIn : https://www.linkedin.com/posts/divyansh-rathore-2a7617332_dataanalytics-dataanalyst-powerbi-ugcPost-7470157126091526144-9BK0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFO9qd8BnLkUuBmGMRPfunIdhjYtqt_3UPM
 
 ## Project Objectives
 
