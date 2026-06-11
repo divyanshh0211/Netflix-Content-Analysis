@@ -6,6 +6,8 @@ This project analyzes Netflix's content library to uncover trends in content gro
 
 The objective was to transform raw data into meaningful business insights through data analysis, visualization, and dashboard development.
 
+LINKEDIN - 
+https://www.linkedin.com/posts/divyansh-rathore-2a7617332_dataanalytics-dataanalyst-powerbi-ugcPost-7470157126091526144-9BK0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFO9qd8BnLkUuBmGMRPfunIdhjYtqt_3UPM
 ---
 
 ## Project Objectives
