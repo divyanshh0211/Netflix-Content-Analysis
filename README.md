@@ -1,107 +1,98 @@
 # Netflix Content Analysis Dashboard
 
-## Overview
+A data analytics project focused on understanding Netflix's content strategy through exploratory data analysis, visualization, and dashboard development.
 
-This project analyzes Netflix's content library to uncover trends in content growth, audience ratings, genres, directors, and global content distribution.
+## Project Overview
 
-The objective was to transform raw data into meaningful business insights through data analysis, visualization, and dashboard development.
+This project analyzes Netflix's content catalog to uncover trends in content growth, audience ratings, genres, directors, and global content distribution.
 
-## Project Showcase
+Using Python for data preparation and Power BI for dashboarding, the project transforms raw Netflix data into actionable business insights.
 
-To see the complete dashboard screenshots, visualizations, and project highlights, check out my LinkedIn post:
-LinkedIn : https://www.linkedin.com/posts/divyansh-rathore-2a7617332_dataanalytics-dataanalyst-powerbi-ugcPost-7470157126091526144-9BK0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFO9qd8BnLkUuBmGMRPfunIdhjYtqt_3UPM
 
-## Project Objectives
+## Dashboard Preview
 
-* Analyze how Netflix's content library has evolved over time
-* Study the distribution of Movies and TV Shows
-* Identify the most common content ratings
-* Explore genre and director trends
-* Examine Netflix's global content expansion
-* Build an interactive dashboard for insight-driven analysis
+View the complete dashboard, visualizations, and project highlights:
 
----
+**LinkedIn Project Showcase**
+https://www.linkedin.com/posts/divyansh-rathore-2a7617332_dataanalytics-dataanalyst-powerbi-ugcPost-7470157126091526144-9BK0/
 
-## Tools and Technologies
 
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Power BI
+## Business Questions Addressed
 
----
+* How has Netflix's content library evolved over time?
+* What is the distribution of Movies versus TV Shows?
+* Which content ratings dominate the platform?
+* Which countries contribute the most content?
+* What genres are most frequently added?
+* Which directors have the highest number of titles on Netflix?
 
-## Project Workflow
 
-### Data Cleaning and Preparation
 
-* Handled missing values
-* Standardized data formats
-* Processed country and director information
-* Extracted year-based features for trend analysis
+## Technology Stack
 
-### Exploratory Data Analysis (EDA)
+| Category      | Tools               |
+| ------------- | ------------------- |
+| Programming   | Python              |
+| Data Analysis | Pandas              |
+| Visualization | Matplotlib, Seaborn |
+| Dashboarding  | Power BI            |
 
-* Content growth analysis
-* Genre distribution analysis
-* Director analysis
-* Country-wise content analysis
-* Rating distribution analysis
 
-### Data Visualization
 
-Created visualizations using Matplotlib and Seaborn to identify patterns, trends, and content behavior.
+## Analytics Workflow
+
+### Data Preparation
+
+* Cleaned missing and inconsistent values (from netflix_titles.csv)
+* Standardized content attributes
+* Processed country, director, and rating information
+* Created additional fields for trend analysis
+
+### Exploratory Data Analysis
+
+* Content Growth Analysis
+* Genre Distribution Analysis
+* Director Analysis
+* Country-wise Content Analysis
+* Rating Distribution Analysis
 
 ### Dashboard Development
 
-Designed an interactive Power BI dashboard featuring:
+Developed an interactive Power BI dashboard featuring:
 
 * KPI Cards
-* Content Growth Analysis
-* Genre Analysis
-* Director Analysis
-* Country Distribution
-* Rating Analysis
-* Interactive Filters
-
----
-
-## Key Insights
-
-### Content Growth
-
-Netflix experienced significant content growth between **2016 and 2019**, indicating a period of rapid platform expansion.
-
-### Content Type Distribution
-
-Movies represent the majority of titles available on the platform compared to TV Shows.
-
-### Audience Ratings
-
-**TV-MA** and **TV-14** are the most common content ratings, suggesting a strong focus on teenage and adult audiences.
-
-### Global Expansion
-
-The **United States** remains the largest content contributor, while countries such as **India** and the **United Kingdom** have shown considerable growth over time.
-
-### Genre Analysis
-
-Drama, Comedy, and International content categories contribute a substantial portion of Netflix's content catalog.
-
----
-
-## Dashboard Features
-
-* Interactive Filters and Slicers
-* KPI-Based Overview
 * Content Growth Tracking
 * Genre Insights
 * Director Analysis
-* Country-Wise Analysis
-* Rating Distribution Analysis
+* Country-wise Distribution
+* Rating Analysis
+* Interactive Filtering
 
----
+
+
+## Key Findings
+
+### Content Expansion
+
+Netflix experienced rapid content growth between **2016 and 2019**, reflecting a significant expansion phase.
+
+### Content Type Analysis
+
+Movies account for the majority of titles available on the platform.
+
+### Audience Ratings
+
+**TV-MA** and **TV-14** are the most common content ratings, indicating a strong focus on teenage and adult audiences.
+
+### Global Reach
+
+The **United States** contributes the largest share of content, while **India** and the **United Kingdom** have shown substantial growth.
+
+### Content Categories
+
+Drama, Comedy, and International content categories represent a significant portion of Netflix's catalog.
+
+
 
 ## Skills Demonstrated
 
@@ -110,13 +101,36 @@ Drama, Comedy, and International content categories contribute a substantial por
 * Exploratory Data Analysis (EDA)
 * Data Visualization
 * Dashboard Development
+* Business Intelligence
 * Data Storytelling
 * Insight Generation
 
----
+
 
 ## Project Outcome
 
-This project provided hands-on experience with the complete analytics workflow, from data preparation and exploration to visualization and dashboard development.
+This project demonstrates the complete analytics workflow, from raw data preparation to dashboard development and business insight generation.
 
-The analysis demonstrates how data can be transformed into actionable insights that support business understanding and decision-making.
+The final dashboard enables users to explore Netflix's content ecosystem through interactive visualizations and data-driven analysis.
+
+
+
+## Repository Contents
+
+```text
+Netflix-Content-Analysis-Dashboard/
+│
+├── README.md
+├── netflix_titles.csv
+├── cleaned_netflix.csv
+├── Netflix_Analysis.ipynb
+├── final netflix powerbi.pbix
+```
+
+
+
+## Dataset
+
+Dataset Source: Kaggle – Netflix Movies and TV Shows Dataset
+
+Approximately 8,800+ Netflix titles containing information on content type, ratings, genres, directors, countries, and release years.
